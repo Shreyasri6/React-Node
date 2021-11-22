@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 const About = () => {
-  const [about, setAbout] = useState({description:"Student-list",creator:"Sherry Jain"});
+  const [about, setAbout] = useState({description:"Student-list",creator:"Shreya Srivastava"});
 
   useEffect(async () => {
     const response = await fetch(`http://127.0.0.1:8000/about`);
